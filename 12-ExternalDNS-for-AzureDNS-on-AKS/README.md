@@ -88,7 +88,7 @@ spec:
       serviceAccountName: external-dns
       containers:
       - name: external-dns
-        image: registry.opensource.zalan.do/teapot/external-dns:latest
+        image: bitnami/external-dns:latest
         args:
         - --source=service
         - --source=ingress
